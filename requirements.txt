@@ -1,0 +1,13 @@
+ultralytics
+torch
+torchvision
+numpy
+matplotlib
+opencv-python
+seaborn
+pyyaml
+ipykernel
+jupyter
+onnx
+onnxslim
+onnxruntime

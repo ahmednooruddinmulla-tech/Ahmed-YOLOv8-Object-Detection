@@ -1,0 +1,70 @@
+# Ahmed YOLOv8 Object Detection Dataset Configuration
+# Place the prepared YOLO dataset in: ./dataset/
+# Expected structure:
+# dataset/
+# ├── images/
+# │   ├── train/
+# │   └── val/
+# └── labels/
+#     ├── train/
+#     └── val/
+
+path: ../dataset
+train: images/train
+val: images/val
+
+nc: 53
+names:
+  - apple
+  - auto_rickshaw
+  - bag
+  - banana
+  - bed
+  - bench
+  - bicycle
+  - bike
+  - book
+  - bottle
+  - bowl
+  - bus
+  - car
+  - chair
+  - cone_barrier
+  - construction_barrier
+  - cow
+  - crowded_roads
+  - cup
+  - daytime
+  - dog
+  - door
+  - dustbin
+  - earbuds
+  - fire
+  - headphones
+  - keyboard
+  - laptop
+  - mixed_traffic
+  - monitor
+  - mouse
+  - night
+  - open_drain
+  - orange
+  - parked_vehicles
+  - person
+  - phone
+  - plate
+  - pole
+  - pothole
+  - rain
+  - sign_board
+  - smartwatch
+  - sofa
+  - speed_breaker
+  - spoon
+  - stairs
+  - table
+  - traffic_signal
+  - truck
+  - wet_floor
+  - window
+  - zebra_crossing
