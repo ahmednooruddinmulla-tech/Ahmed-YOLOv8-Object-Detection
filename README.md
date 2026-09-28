@@ -2,6 +2,19 @@
 
 An end-to-end custom object-detection project using **YOLOv8l**. The project covers dataset inspection and conversion, model training, fine-tuning, evaluation, visualization, and model export/deployment experiments.
 
+## Trained Model
+
+The trained YOLOv8 model is available in the project's GitHub Release.
+
+**Model:** `ahmed_yolov8_best.pt`  
+**Architecture:** YOLOv8l  
+**Input Size:** 640 × 640  
+**Training Epochs:** 100  
+**Batch Size:** 16  
+**Optimizer:** AdamW  
+
+[Download the trained model (v1.0.0)](../../releases/latest)
+
 ## Project highlights
 
 - Custom **53-class** object-detection dataset
